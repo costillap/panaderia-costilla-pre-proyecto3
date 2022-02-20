@@ -1,0 +1,8 @@
+/*CONTACTO*/
+.body_contacto{
+    height: 100vh;
+}
+.main_contacto{
+    background-image: url(../img/contacto-1.jpg);
+    @include fondo-fixed;
+}

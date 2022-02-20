@@ -1,0 +1,6 @@
+/*INICIO*/
+.main_inicio{
+    background-image: url(../img/fondo.jpg);
+    height: 100vh;
+    @include fondo-fixed;
+}

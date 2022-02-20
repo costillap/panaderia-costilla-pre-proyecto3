@@ -1,0 +1,16 @@
+/*PRODUCTOS*/
+.main_productos{
+    .div_producto1{
+        background-image: url(../img/productos1.jpg);
+        height: 600px;
+        @include fondo-fixed;        
+    }
+    .div_producto2{
+        @extend .div_producto1;
+        background-image: url(../img/nosotros2.jpg);
+    }
+    .div_producto3{
+        @extend .div_producto1;
+        background-image: url(../img/productos3.jpg);
+    }
+}
