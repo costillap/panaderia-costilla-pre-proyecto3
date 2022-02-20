@@ -1,0 +1,23 @@
+@keyframes parrafoAnimado {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 100;
+    }
+}
+
+nav a:hover{
+    color:rgb(199, 36, 36);
+    border-bottom: 3px solid rgb(199, 36, 36) ;
+}
+
+.main_nosotros p{
+    animation: parrafoAnimado;
+    animation-duration: 2s;
+}
+
+.main_catering p{
+    animation: parrafoAnimado;
+    animation-duration: 2s;
+}

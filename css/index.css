@@ -29,6 +29,9 @@ body {
   background-color: rgba(255, 241, 224, 0.493);
   font-family: Arial, Helvetica, sans-serif; }
 
+.nav-link {
+  border-bottom: 3px solid white; }
+
 /*INICIO*/
 .main_inicio {
   background-image: url(../img/fondo.jpg);
@@ -54,7 +57,7 @@ body {
   background-attachment: fixed; }
 
 .main_productos .div_producto2 {
-  background-image: url(../img/nosotros2.jpg); }
+  background-image: url(../img/productos2.jpg); }
 
 .main_productos .div_producto3 {
   background-image: url(../img/productos3.jpg); }
@@ -75,6 +78,24 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed; }
+
+@keyframes parrafoAnimado {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 100; } }
+
+nav a:hover {
+  color: #c72424;
+  border-bottom: 3px solid #c72424; }
+
+.main_nosotros p {
+  animation: parrafoAnimado;
+  animation-duration: 2s; }
+
+.main_catering p {
+  animation: parrafoAnimado;
+  animation-duration: 2s; }
 
 /*@MEDIA*/
 @media (max-width: 576px) {
