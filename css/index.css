@@ -34,18 +34,23 @@ body {
 
 /*INICIO*/
 .main_inicio {
-  background-image: url(../img/fondo.jpg);
+  background-image: url(../img/fondo1.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed; }
+  .main_inicio h1 {
+    color: #c72424;
+    background-color: rgba(255, 241, 224, 0.267); }
 
 /*NOSOTROS*/
 .main_nosotros {
   min-height: 100vh; }
   .main_nosotros img {
     max-height: 600px; }
+  .main_nosotros h2 {
+    color: #c72424; }
 
 /*PRODUCTOS*/
 .main_productos .div_producto1, .main_productos .div_producto2, .main_productos .div_producto3 {
@@ -62,11 +67,16 @@ body {
 .main_productos .div_producto3 {
   background-image: url(../img/productos3.jpg); }
 
+.main_productos h3 {
+  color: #c72424; }
+
 /*CATERING*/
 .main_catering {
   min-height: 100vh; }
   .main_catering img {
     max-height: 600px; }
+  .main_catering h2 {
+    color: #c72424; }
 
 /*CONTACTO*/
 .body_contacto {
@@ -78,6 +88,9 @@ body {
   background-size: cover;
   background-position: center;
   background-attachment: fixed; }
+  .main_contacto h1 {
+    color: #c72424;
+    background-color: rgba(255, 241, 224, 0.267); }
 
 @keyframes parrafoAnimado {
   from {
