@@ -1,6 +1,11 @@
 /*@MEDIA*/
+@media (min-width: 1024px){
+    .div_producto1, .main_inicio{
+        background-attachment: fixed;
+    }
+}
 @media (max-width: 576px){
     body{
         font-size: 12px;
-    }    
+    }  
 }
