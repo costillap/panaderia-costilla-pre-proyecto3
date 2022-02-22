@@ -8,8 +8,8 @@
 }
 
 nav a:hover{
-    color:rgb(199, 36, 36);
-    border-bottom: 3px solid rgb(199, 36, 36) ;
+    color:$color1;
+    border-bottom: 3px solid $color1 ;
 }
 
 .main_nosotros p{
@@ -18,6 +18,10 @@ nav a:hover{
 }
 
 .main_catering p{
+    animation: parrafoAnimado;
+    animation-duration: 2s;
+}
+.main_inicio p{
     animation: parrafoAnimado;
     animation-duration: 2s;
 }

@@ -3,8 +3,22 @@
     background-image: url(../img/fondo1.jpg);
     height: 100vh;
     @include fondo-fixed;
+    div{
+        border-style: solid;
+        border-color: $color2;
+        border-width: 3px;
+        background-color: rgba(0, 0, 0, 0.253);
+        
+        
+    }
     h1 {
         color: $color1;
-        background-color: rgba(255, 241, 224, 0.267);
+        width: fit-content;
+        font-weight: bold;
+    }
+    p{
+        font-family: $tipografia1;
+        color: $color2;
+        
     }
 }
