@@ -8,17 +8,20 @@
         border-color: $color2;
         border-width: 3px;
         background-color: rgba(0, 0, 0, 0.253);
-        
+        padding-left: 6em;
+        padding-right: 6em;
+        padding-top: 9em;
+        padding-bottom: 9em;
+        margin: 1em;
         
     }
     h1 {
         color: $color1;
         width: fit-content;
-        font-weight: bold;
+        margin-bottom: 0.5em;
     }
     p{
         font-family: $tipografia1;
         color: $color2;
-        
     }
 }
