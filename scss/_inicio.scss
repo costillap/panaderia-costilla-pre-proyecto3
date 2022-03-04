@@ -1,23 +1,12 @@
 /*INICIO*/
 .main_inicio{
     background-image: url(../img/fondo1.jpg);
-    height: 100vh;
+    height: 55em;
     @include fondo-fixed;
-    div{
-        border-style: solid;
-        border-color: $color2;
-        border-width: 3px;
-        background-color: rgba(0, 0, 0, 0.253);
-        padding-left: 6em;
-        padding-right: 6em;
-        padding-top: 9em;
-        padding-bottom: 9em;
-        margin: 1em;
-        
-    }
+   
+    
     h1 {
         color: $color1;
-        width: fit-content;
         margin-bottom: 0.5em;
     }
     p{

@@ -1,16 +1,18 @@
 /*VARIABLES MAPAS*/
 $tipografia1: 'Courgette', cursive;
-$color1:rgb(199, 36, 36);
-$color2:rgba(255, 241, 224, 0.767);
+$color1:rgb(212, 37, 37);
+$color2:#ece9e2;
+$color3:#9c9787de;
 $fuentes: (
-    1: 3.5em,
-    2: 3em,
-    3: 2.7em,
-    4: 2.3em,
-    5: 2em,
-    6: 1.7em,
-    7: 1.3em,
-    8: 1em,
+    1: 4em,
+    2: 3.5em,
+    3: 3em,
+    4: 2.7em,
+    5: 2.3em,
+    6: 2em,
+    7: 1.7em,
+    8: 1.3em,
+    9: 1em,
 );
 @each $numero_tamaño, $tamaño in $fuentes {
     .tamaño-#{$numero_tamaño}{
