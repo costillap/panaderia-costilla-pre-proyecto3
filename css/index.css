@@ -60,13 +60,13 @@
     background-image: url(../img/tapa1.jpg); } }
 
 .body_inicio {
-  animation: fondoAnimado 20s ease-in-out infinite;
+  animation: fondoAnimado 25s ease-out infinite;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
 
 .body_contacto {
-  animation: fondoAnimado2 20s ease-in-out infinite;
+  animation: fondoAnimado2 20s ease-out infinite;
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -85,6 +85,21 @@
 .main_inicio p {
   animation: parrafoAnimado;
   animation-duration: 3s; }
+
+/*ESTILOS GENERALES*/
+body {
+  background-color: #ece9e2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px; }
+
+.nav-link {
+  border-bottom: 3px solid rgba(255, 255, 255, 0); }
+
+footer {
+  background-color: #990e31;
+  color: #ece9e2; }
+  footer a {
+    color: #ece9e2; }
 
 /*INICIO*/
 .nav_inicio {
@@ -163,21 +178,6 @@
   background-color: rgba(0, 0, 0, 0.253);
   color: #ece9e2; }
   .footer_contacto a {
-    color: #ece9e2; }
-
-/*ESTILOS GENERALES*/
-body {
-  background-color: #ece9e2;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px; }
-
-.nav-link {
-  border-bottom: 3px solid rgba(255, 255, 255, 0); }
-
-footer {
-  background-color: #990e31;
-  color: #ece9e2; }
-  footer a {
     color: #ece9e2; }
 
 /*@MEDIA*/

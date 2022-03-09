@@ -23,7 +23,6 @@
     100%{
         background-image: url(../img/fondo1.jpg);
     }
-
 }
 @keyframes fondoAnimado2{
     0%{
@@ -41,22 +40,22 @@
     100%{
         background-image: url(../img/tapa1.jpg);
     }
-    }
+}
 
 .body_inicio {
-    animation: fondoAnimado 20s ease-in-out infinite;
+    animation: fondoAnimado 25s ease-out infinite;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .body_contacto{
-    animation: fondoAnimado2 20s ease-in-out infinite;
+    animation: fondoAnimado2 20s ease-out infinite;
     background-size: cover;
     background-repeat: no-repeat;
 }
 .nav-item :hover{
-    color:$color1;
-    border-bottom: 3px solid $color1 ;
+    color: $color1;
+    border-bottom: 3px solid $color1;
 }
 
 .main_nosotros p{
