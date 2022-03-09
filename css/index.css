@@ -29,9 +29,24 @@
 .tamaño-9 {
   font-size: 1em; }
 
+/*ESTILOS GENERALES*/
+body {
+  background-color: #ece9e2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px; }
+
+.nav-link {
+  border-bottom: 3px solid rgba(255, 255, 255, 0); }
+
+footer {
+  background-color: #990e31;
+  color: #ece9e2; }
+  footer a {
+    color: #ece9e2; }
+
 /*INICIO*/
 .body_inicio {
-  background-image: url(../img/fondo1.jpg), url(../img/fondo2.jpg), url(../img/fondo3.jpg), url(../img/fondo4.jpg); }
+  background-image: url(../img/fondo2.jpg), url(../img/fondo3.jpg), url(../img/fondo4.jpg); }
 
 .nav_inicio {
   background-color: rgba(0, 0, 0, 0.247); }
@@ -51,21 +66,6 @@
   background-color: rgba(0, 0, 0, 0.253);
   color: #ece9e2; }
   .footer_inicio a {
-    color: #ece9e2; }
-
-/*ESTILOS GENERALES*/
-body {
-  background-color: #ece9e2;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px; }
-
-.nav-link {
-  border-bottom: 3px solid rgba(255, 255, 255, 0); }
-
-footer {
-  background-color: #990e31;
-  color: #ece9e2; }
-  footer a {
     color: #ece9e2; }
 
 @keyframes parrafoAnimado {
@@ -89,10 +89,12 @@ footer {
 @keyframes fondoAnimado2 {
   0% {
     background-image: url(../img/tapa1.jpg); }
-  33% {
+  25% {
     background-image: url(../img/tapa2.jpg); }
-  66% {
+  50% {
     background-image: url(../img/tapa3.jpg); }
+  75% {
+    background-image: url(../img/tapa4.jpg); }
   100% {
     background-image: url(../img/tapa1.jpg); } }
 
@@ -165,7 +167,7 @@ footer {
 /*CATERING*/
 /*CONTACTO*/
 .body_contacto {
-  background-image: url(../img/tapa1.jpg), url(../img/tapa2.jpg), url(../img/tapa3.jpg), url(../img/tapa1.jpg); }
+  background-image: url(../img/tapa2.jpg), url(../img/tapa3.jpg), url(../img/tapa1.jpg); }
 
 .nav_contacto {
   background-color: rgba(0, 0, 0, 0.247); }

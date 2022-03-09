@@ -26,13 +26,15 @@
 @keyframes fondoAnimado2{
     0%{
         background-image: url(../img/tapa1.jpg);
-        
     }
-    33%{
+    25%{
         background-image: url(../img/tapa2.jpg);
     }
-    66%{
+    50%{
         background-image: url(../img/tapa3.jpg);
+    }
+    75%{
+        background-image: url(../img/tapa4.jpg);
     }
     100%{
         background-image: url(../img/tapa1.jpg);
