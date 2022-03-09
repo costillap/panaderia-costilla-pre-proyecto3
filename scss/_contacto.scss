@@ -1,11 +1,23 @@
 /*CONTACTO*/
-.body_contacto{
-    height: 100vh;
+.nav_contacto{
+    background-color: rgba(0, 0, 0, 0.247);
 }
 .main_contacto{
-    background-image: url(../img/contacto-1.jpg);
-    @include fondo-fixed;
+    height: 100vh;
     h1{
         color: $color1;
+        font-family: $tipografia2;
+    }
+    h2{
+        color: $color2;
+        font-family: $tipografia1;
+    }
+    
+}
+.footer_contacto{
+    background-color: rgba(0, 0, 0, 0.253);
+    color: $color2;
+    a{
+        color:$color2;
     }
 }

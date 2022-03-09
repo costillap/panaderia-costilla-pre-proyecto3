@@ -1,15 +1,21 @@
 /*NOSOTROS*/
 .main_nosotros{
     min-height: 100vh;
-    img {
+    
+    img{
         max-height: 600px;
     }
-        
-    h2 {
+    h2{
         color: $color1;
+        font-family: $tipografia2;
     }
     p{
         font-family: $tipografia1;
+    }
+    .icono{
+        width: 150px;
+        height: 150px;
+        margin: 10px;
     }
     
 }

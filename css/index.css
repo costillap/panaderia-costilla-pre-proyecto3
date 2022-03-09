@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Chonburi&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 /*VARIABLES MAPAS*/
 .tamaño-1 {
@@ -28,6 +29,26 @@
 .tamaño-9 {
   font-size: 1em; }
 
+/*INICIO*/
+.nav_inicio {
+  background-color: rgba(0, 0, 0, 0.247); }
+
+.main_inicio {
+  height: 100vh; }
+  .main_inicio h1 {
+    color: #b10d36;
+    margin-bottom: 0.5em;
+    font-family: "Chonburi", cursive; }
+  .main_inicio p {
+    font-family: "Courgette", cursive;
+    color: #ece9e2; }
+
+.footer_inicio {
+  background-color: rgba(0, 0, 0, 0.253);
+  color: #ece9e2; }
+  .footer_inicio a {
+    color: #ece9e2; }
+
 /*ESTILOS GENERALES*/
 body {
   background-color: #ece9e2;
@@ -35,23 +56,12 @@ body {
   font-size: 16px; }
 
 .nav-link {
-  border-bottom: 3px solid white; }
+  border-bottom: 3px solid rgba(255, 255, 255, 0); }
 
 footer {
-  background-color: #9c9787de; }
-
-/*INICIO*/
-.main_inicio {
-  background-image: url(../img/fondo1.jpg);
-  height: 55em;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
-  .main_inicio h1 {
-    color: #d42525;
-    margin-bottom: 0.5em; }
-  .main_inicio p {
-    font-family: "Courgette", cursive;
+  background-color: #990e31;
+  color: #ece9e2; }
+  footer a {
     color: #ece9e2; }
 
 /*NOSOTROS*/
@@ -60,9 +70,14 @@ footer {
   .main_nosotros img, .main_catering img {
     max-height: 600px; }
   .main_nosotros h2, .main_catering h2 {
-    color: #d42525; }
+    color: #b10d36;
+    font-family: "Chonburi", cursive; }
   .main_nosotros p, .main_catering p {
     font-family: "Courgette", cursive; }
+  .main_nosotros .icono, .main_catering .icono {
+    width: 150px;
+    height: 150px;
+    margin: 10px; }
 
 /*PRODUCTOS*/
 .main_productos .div_producto1, .main_productos .div_producto2, .main_productos .div_producto3 {
@@ -79,23 +94,34 @@ footer {
   background-image: url(../img/productos3.jpg); }
 
 .main_productos h3 {
-  color: #d42525; }
+  color: #b10d36;
+  font-family: "Chonburi", cursive; }
 
 .main_productos p {
   font-family: "Courgette", cursive; }
 
+.main_productos li {
+  font-family: "Courgette", cursive; }
+
 /*CATERING*/
 /*CONTACTO*/
-.body_contacto {
-  height: 100vh; }
+.nav_contacto {
+  background-color: rgba(0, 0, 0, 0.247); }
 
 .main_contacto {
-  background-image: url(../img/contacto-1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; }
+  height: 100vh; }
   .main_contacto h1 {
-    color: #d42525; }
+    color: #b10d36;
+    font-family: "Chonburi", cursive; }
+  .main_contacto h2 {
+    color: #ece9e2;
+    font-family: "Courgette", cursive; }
+
+.footer_contacto {
+  background-color: rgba(0, 0, 0, 0.253);
+  color: #ece9e2; }
+  .footer_contacto a {
+    color: #ece9e2; }
 
 @keyframes parrafoAnimado {
   from {
@@ -103,25 +129,57 @@ footer {
   to {
     opacity: 100; } }
 
+@keyframes fondoAnimado {
+  0% {
+    background-image: url(../img/fondo1.jpg); }
+  25% {
+    background-image: url(../img/fondo2.jpg); }
+  50% {
+    background-image: url(../img/fondo3.jpg); }
+  75% {
+    background-image: url(../img/fondo4.jpg); }
+  100% {
+    background-image: url(../img/fondo1.jpg); } }
+
+@keyframes fondoAnimado2 {
+  0%, 100% {
+    background-image: url(../img/tapa1.jpg); }
+  25% {
+    background-image: url(../img/tapa2.jpg); }
+  50% {
+    background-image: url(../img/tapa3.jpg); }
+  75% {
+    background-image: url(../img/tapa4.jpg); } }
+
+.body_inicio {
+  animation: fondoAnimado 20s ease-in-out infinite;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.body_contacto {
+  animation: fondoAnimado2 20s ease-in-out infinite;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 .nav-item :hover {
-  color: #d42525;
-  border-bottom: 3px solid #d42525; }
+  color: #b10d36;
+  border-bottom: 3px solid #b10d36; }
 
 .main_nosotros p, .main_catering p {
   animation: parrafoAnimado;
-  animation-duration: 2s; }
+  animation-duration: 3s; }
 
 .main_catering p {
   animation: parrafoAnimado;
-  animation-duration: 2s; }
+  animation-duration: 3s; }
 
 .main_inicio p {
   animation: parrafoAnimado;
-  animation-duration: 2s; }
+  animation-duration: 3s; }
 
 /*@MEDIA*/
 @media (min-width: 1024px) {
-  .div_producto1, .main_productos .div_producto2, .main_productos .div_producto3, .main_inicio, .main_contacto {
+  .div_producto1, .main_productos .div_producto2, .main_productos .div_producto3, .main_inicio, .main_contacto, .main_nosotros, .main_catering, .main_catering {
     background-attachment: fixed; } }
 
 @media (min-width: 576px) and (max-width: 1023px) {

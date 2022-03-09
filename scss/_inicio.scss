@@ -1,16 +1,28 @@
 /*INICIO*/
+
+
+.nav_inicio{
+    background-color: rgba(0, 0, 0, 0.247);
+}
 .main_inicio{
-    background-image: url(../img/fondo1.jpg);
-    height: 55em;
-    @include fondo-fixed;
    
-    
+    height: 100vh;
+   
     h1 {
         color: $color1;
         margin-bottom: 0.5em;
+        font-family: $tipografia2;
+        
     }
     p{
         font-family: $tipografia1;
         color: $color2;
+    }
+}
+.footer_inicio{
+    background-color: rgba(0, 0, 0, 0.253);
+    color: $color2;
+    a{
+        color:$color2;
     }
 }
