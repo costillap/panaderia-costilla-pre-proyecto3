@@ -1,4 +1,8 @@
 /*INICIO*/
+
+.body_inicio{
+    background-image: url(../img/fondo1.jpg), url(../img/fondo2.jpg), url(../img/fondo3.jpg), url(../img/fondo4.jpg);
+}
 .nav_inicio{
     background-color: rgba(0, 0, 0, 0.247);
 }
@@ -12,6 +16,7 @@
     p{
         font-family: $tipografia1;
         color: $color2;
+        z-index: 1;
     }
 }
 .footer_inicio{

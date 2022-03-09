@@ -45,6 +45,9 @@ footer {
     color: #ece9e2; }
 
 /*INICIO*/
+.body_inicio {
+  background-image: url(../img/fondo1.jpg), url(../img/fondo2.jpg), url(../img/fondo3.jpg), url(../img/fondo4.jpg); }
+
 .nav_inicio {
   background-color: rgba(0, 0, 0, 0.247); }
 
@@ -56,7 +59,8 @@ footer {
     font-family: "Chonburi", cursive; }
   .main_inicio p {
     font-family: "Courgette", cursive;
-    color: #ece9e2; }
+    color: #ece9e2;
+    z-index: 1; }
 
 .footer_inicio {
   background-color: rgba(0, 0, 0, 0.253);
@@ -85,23 +89,21 @@ footer {
 @keyframes fondoAnimado2 {
   0% {
     background-image: url(../img/tapa1.jpg); }
-  25% {
+  33% {
     background-image: url(../img/tapa2.jpg); }
-  50% {
+  66% {
     background-image: url(../img/tapa3.jpg); }
-  75% {
-    background-image: url(../img/tapa4.jpg); }
   100% {
     background-image: url(../img/tapa1.jpg); } }
 
 .body_inicio {
-  animation: fondoAnimado 35s ease-out infinite;
+  animation: fondoAnimado 25s ease-in-out infinite;
+  transition-property: background-image;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; }
+  background-repeat: no-repeat; }
 
 .body_contacto {
-  animation: fondoAnimado2 35s ease-out infinite;
+  animation: fondoAnimado2 25s ease-in-out infinite;
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -162,6 +164,9 @@ footer {
 
 /*CATERING*/
 /*CONTACTO*/
+.body_contacto {
+  background-image: url(../img/tapa1.jpg), url(../img/tapa2.jpg), url(../img/tapa3.jpg), url(../img/tapa1.jpg); }
+
 .nav_contacto {
   background-color: rgba(0, 0, 0, 0.247); }
 
