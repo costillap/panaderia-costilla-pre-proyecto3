@@ -27,6 +27,7 @@
 @keyframes fondoAnimado2{
     0%{
         background-image: url(../img/tapa1.jpg);
+        
     }
     25%{
         background-image: url(../img/tapa2.jpg);
@@ -43,13 +44,13 @@
 }
 
 .body_inicio {
-    animation: fondoAnimado 25s ease-out infinite;
+    animation: fondoAnimado 35s ease-out infinite;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
 .body_contacto{
-    animation: fondoAnimado2 20s ease-out infinite;
+    animation: fondoAnimado2 35s ease-out infinite;
     background-size: cover;
     background-repeat: no-repeat;
 }

@@ -29,63 +29,6 @@
 .tamaño-9 {
   font-size: 1em; }
 
-@keyframes parrafoAnimado {
-  from {
-    opacity: 0; }
-  to {
-    opacity: 100; } }
-
-@keyframes fondoAnimado {
-  0% {
-    background-image: url(../img/fondo1.jpg); }
-  25% {
-    background-image: url(../img/fondo2.jpg); }
-  50% {
-    background-image: url(../img/fondo3.jpg); }
-  75% {
-    background-image: url(../img/fondo4.jpg); }
-  100% {
-    background-image: url(../img/fondo1.jpg); } }
-
-@keyframes fondoAnimado2 {
-  0% {
-    background-image: url(../img/tapa1.jpg); }
-  25% {
-    background-image: url(../img/tapa2.jpg); }
-  50% {
-    background-image: url(../img/tapa3.jpg); }
-  75% {
-    background-image: url(../img/tapa4.jpg); }
-  100% {
-    background-image: url(../img/tapa1.jpg); } }
-
-.body_inicio {
-  animation: fondoAnimado 25s ease-out infinite;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; }
-
-.body_contacto {
-  animation: fondoAnimado2 20s ease-out infinite;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.nav-item :hover {
-  color: #b10d36;
-  border-bottom: 3px solid #b10d36; }
-
-.main_nosotros p, .main_catering p {
-  animation: parrafoAnimado;
-  animation-duration: 3s; }
-
-.main_catering p {
-  animation: parrafoAnimado;
-  animation-duration: 3s; }
-
-.main_inicio p {
-  animation: parrafoAnimado;
-  animation-duration: 3s; }
-
 /*ESTILOS GENERALES*/
 body {
   background-color: #ece9e2;
@@ -120,6 +63,63 @@ footer {
   color: #ece9e2; }
   .footer_inicio a {
     color: #ece9e2; }
+
+@keyframes parrafoAnimado {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 100; } }
+
+@keyframes fondoAnimado {
+  0% {
+    background-image: url(../img/fondo1.jpg); }
+  25% {
+    background-image: url(../img/fondo2.jpg); }
+  50% {
+    background-image: url(../img/fondo3.jpg); }
+  75% {
+    background-image: url(../img/fondo4.jpg); }
+  100% {
+    background-image: url(../img/fondo1.jpg); } }
+
+@keyframes fondoAnimado2 {
+  0% {
+    background-image: url(../img/tapa1.jpg); }
+  25% {
+    background-image: url(../img/tapa2.jpg); }
+  50% {
+    background-image: url(../img/tapa3.jpg); }
+  75% {
+    background-image: url(../img/tapa4.jpg); }
+  100% {
+    background-image: url(../img/tapa1.jpg); } }
+
+.body_inicio {
+  animation: fondoAnimado 35s ease-out infinite;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.body_contacto {
+  animation: fondoAnimado2 35s ease-out infinite;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.nav-item :hover {
+  color: #b10d36;
+  border-bottom: 3px solid #b10d36; }
+
+.main_nosotros p, .main_catering p {
+  animation: parrafoAnimado;
+  animation-duration: 3s; }
+
+.main_catering p {
+  animation: parrafoAnimado;
+  animation-duration: 3s; }
+
+.main_inicio p {
+  animation: parrafoAnimado;
+  animation-duration: 3s; }
 
 /*NOSOTROS*/
 .main_nosotros, .main_catering {
