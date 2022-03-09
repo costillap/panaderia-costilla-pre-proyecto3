@@ -6,7 +6,6 @@
         opacity: 100;
     }
 }
-
 @keyframes fondoAnimado{
     0%  {
         background-image: url(../img/fondo1.jpg);
@@ -39,7 +38,6 @@
         background-image: url(../img/tapa1.jpg);
     }
 }
-
 .body_inicio {
     animation: fondoAnimado 25s ease-in-out infinite;
     transition-property: background-image;
@@ -51,17 +49,14 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .nav-item :hover{
     color: $color1;
     border-bottom: 3px solid $color1;
 }
-
 .main_nosotros p{
     animation: parrafoAnimado;
     animation-duration: 3s;
 }
-
 .main_catering p{
     animation: parrafoAnimado;
     animation-duration: 3s;
@@ -69,5 +64,4 @@
 .main_inicio p{
     animation: parrafoAnimado;
     animation-duration: 3s;
-   
 }

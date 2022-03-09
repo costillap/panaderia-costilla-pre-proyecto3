@@ -29,21 +29,6 @@
 .tamaño-9 {
   font-size: 1em; }
 
-/*ESTILOS GENERALES*/
-body {
-  background-color: #ece9e2;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px; }
-
-.nav-link {
-  border-bottom: 3px solid rgba(255, 255, 255, 0); }
-
-footer {
-  background-color: #990e31;
-  color: #ece9e2; }
-  footer a {
-    color: #ece9e2; }
-
 /*INICIO*/
 .body_inicio {
   background-image: url(../img/fondo1.jpg), url(../img/fondo2.jpg), url(../img/fondo3.jpg), url(../img/fondo4.jpg); }
@@ -66,6 +51,21 @@ footer {
   background-color: rgba(0, 0, 0, 0.253);
   color: #ece9e2; }
   .footer_inicio a {
+    color: #ece9e2; }
+
+/*ESTILOS GENERALES*/
+body {
+  background-color: #ece9e2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px; }
+
+.nav-link {
+  border-bottom: 3px solid rgba(255, 255, 255, 0); }
+
+footer {
+  background-color: #990e31;
+  color: #ece9e2; }
+  footer a {
     color: #ece9e2; }
 
 @keyframes parrafoAnimado {
@@ -170,14 +170,13 @@ footer {
 .nav_contacto {
   background-color: rgba(0, 0, 0, 0.247); }
 
-.main_contacto {
-  height: 100vh; }
-  .main_contacto h1 {
-    color: #b10d36;
-    font-family: "Chonburi", cursive; }
-  .main_contacto h2 {
-    color: #ece9e2;
-    font-family: "Courgette", cursive; }
+.main_contacto h1 {
+  color: #b10d36;
+  font-family: "Chonburi", cursive; }
+
+.main_contacto h2 {
+  color: #ece9e2;
+  font-family: "Courgette", cursive; }
 
 .footer_contacto {
   background-color: rgba(0, 0, 0, 0.253);
