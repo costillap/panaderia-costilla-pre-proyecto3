@@ -41,15 +41,17 @@
     }
 }
 .body_inicio {
-    animation: fondoAnimado 25s ease-in-out infinite;
+    animation: fondoAnimado 30s ease-in-out infinite;
     transition-property: background-image;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .body_contacto{
-    animation: fondoAnimado2 25s ease-in-out infinite;
+    animation: fondoAnimado2 30s ease-in-out infinite;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .nav-item :hover{
     color: $color1;

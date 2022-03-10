@@ -84,15 +84,17 @@
     background-image: url(../img/tapa1.jpg); } }
 
 .body_inicio {
-  animation: fondoAnimado 25s ease-in-out infinite;
+  animation: fondoAnimado 30s ease-in-out infinite;
   transition-property: background-image;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .body_contacto {
-  animation: fondoAnimado2 25s ease-in-out infinite;
+  animation: fondoAnimado2 30s ease-in-out infinite;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-position: center; }
 
 .nav-item :hover {
   color: #b10d36;
@@ -188,7 +190,7 @@ footer {
 
 /*@MEDIA*/
 @media (min-width: 1024px) {
-  .div_producto1, .main_productos .div_producto2, .main_productos .div_producto3, .main_inicio, .main_contacto, .main_nosotros, .main_catering, .main_catering {
+  .div_producto1, .main_productos .div_producto2, .main_productos .div_producto3 {
     background-attachment: fixed; } }
 
 @media (min-width: 576px) and (max-width: 1023px) {
