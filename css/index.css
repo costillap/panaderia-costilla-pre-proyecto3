@@ -1,7 +1,7 @@
 @charset "UTF-8";
+/*VARIABLES MAPAS*/
 @import url("https://fonts.googleapis.com/css2?family=Chonburi&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
-/*VARIABLES MAPAS*/
 .tamaño-1 {
   font-size: 4em; }
 
@@ -28,21 +28,6 @@
 
 .tamaño-9 {
   font-size: 1em; }
-
-/*ESTILOS GENERALES*/
-body {
-  background-color: #ece9e2;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px; }
-
-.nav-link {
-  border-bottom: 3px solid rgba(255, 255, 255, 0); }
-
-footer {
-  background-color: #990e31;
-  color: #ece9e2; }
-  footer a {
-    color: #ece9e2; }
 
 /*INICIO*/
 .body_inicio {
@@ -124,6 +109,21 @@ footer {
 .main_inicio p {
   animation: parrafoAnimado;
   animation-duration: 3s; }
+
+/*ESTILOS GENERALES*/
+body {
+  background-color: #ece9e2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px; }
+
+.nav-link {
+  border-bottom: 3px solid rgba(255, 255, 255, 0); }
+
+footer {
+  background-color: #990e31;
+  color: #ece9e2; }
+  footer a {
+    color: #ece9e2; }
 
 /*NOSOTROS*/
 .main_nosotros, .main_catering {
