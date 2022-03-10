@@ -6,6 +6,7 @@
     background-color: rgba(0, 0, 0, 0.247);
 }
 .main_contacto{
+    height: 100vh;
     h1{
         color: $color1;
         font-family: $tipografia2;
@@ -16,6 +17,7 @@
     }
 }
 .footer_contacto{
+    margin-top: 10px;
     background-color: rgba(0, 0, 0, 0.253);
     color: $color2;
     a{
