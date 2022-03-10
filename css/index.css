@@ -85,7 +85,6 @@
 
 .body_inicio {
   animation: fondoAnimado 30s ease-in-out infinite;
-  transition-property: background-image;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
