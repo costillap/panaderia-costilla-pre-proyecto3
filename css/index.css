@@ -169,7 +169,7 @@ footer {
 /*CATERING*/
 /*CONTACTO*/
 .body_contacto {
-  background-image: url(../img/tapa2.jpg), url(../img/tapa3.jpg), url(../img/tapa1.jpg); }
+  background-image: url(../img/tapa2.jpg), url(../img/tapa3.jpg), url(../img/tapa4.jpg); }
 
 .nav_contacto {
   background-color: rgba(0, 0, 0, 0.247); }
@@ -191,11 +191,15 @@ footer {
 /*@MEDIA*/
 @media (min-width: 1024px) {
   .div_producto1, .main_productos .div_producto2, .main_productos .div_producto3 {
-    background-attachment: fixed; } }
+    background-attachment: fixed; }
+  .body_inicio {
+    background-image: url(../img/fondo2.jpg), url(../img/fondo3.jpg), url(../img/fondo4.jpg); } }
 
 @media (min-width: 576px) and (max-width: 1023px) {
   body {
-    font-size: 11px; } }
+    font-size: 11px; }
+  .body_inicio {
+    background-image: url(../img/fondo2.jpg), url(../img/fondo3.jpg), url(../img/fondo4.jpg); } }
 
 @media (max-width: 575px) {
   body {
@@ -206,4 +210,6 @@ footer {
     padding-top: 6em;
     padding-bottom: 6em;
     margin-left: 1em;
-    margin-right: 1em; } }
+    margin-right: 1em; }
+  .body_inicio {
+    background-image: url(../img/fondo2.jpg), url(../img/fondo3.jpg), url(../img/fondo4.jpg); } }
