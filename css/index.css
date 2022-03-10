@@ -196,11 +196,23 @@ footer {
 
 @media (min-width: 576px) and (max-width: 1023px) {
   body {
-    font-size: 11px; } }
+    font-size: 11px; }
+  .body_inicio {
+    animation: none;
+    background-image: url(../img/fondo3.jpg); }
+  .body_contacto {
+    animation: none;
+    background-image: url(../img/tapa4.jpg); } }
 
 @media (max-width: 575px) {
   body {
     font-size: 10px; }
+  .body_inicio {
+    animation: none;
+    background-image: url(../img/fondo3.jpg); }
+  .body_contacto {
+    animation: none;
+    background-image: url(../img/tapa4.jpg); }
   .main_inicio div {
     padding-left: 4em;
     padding-right: 4em;
