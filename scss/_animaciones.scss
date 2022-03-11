@@ -52,6 +52,9 @@
     background-repeat: no-repeat;
     background-position: center;
 }
+.footer_link :hover{
+    color: black;
+}
 .nav-item :hover{
     color: $color1;
     border-bottom: 3px solid $color1;

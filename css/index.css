@@ -39,13 +39,12 @@
 .main_inicio {
   height: 100vh; }
   .main_inicio h1 {
-    color: #b10d36;
+    color: #b60732;
     margin-bottom: 0.5em;
     font-family: "Chonburi", cursive; }
   .main_inicio p {
     font-family: "Courgette", cursive;
-    color: #ece9e2;
-    z-index: 1; }
+    color: #ece9e2; }
 
 .footer_inicio {
   background-color: rgba(0, 0, 0, 0.253);
@@ -95,9 +94,12 @@
   background-repeat: no-repeat;
   background-position: center; }
 
+.footer_link :hover {
+  color: black; }
+
 .nav-item :hover {
-  color: #b10d36;
-  border-bottom: 3px solid #b10d36; }
+  color: #b60732;
+  border-bottom: 3px solid #b60732; }
 
 .main_nosotros p, .main_catering p {
   animation: parrafoAnimado;
@@ -124,7 +126,8 @@ footer {
   background-color: #990e31;
   color: #ece9e2; }
   footer a {
-    color: #ece9e2; }
+    color: #ece9e2;
+    text-decoration: none; }
 
 /*NOSOTROS*/
 .main_nosotros, .main_catering {
@@ -132,7 +135,7 @@ footer {
   .main_nosotros img, .main_catering img {
     max-height: 600px; }
   .main_nosotros h2, .main_catering h2 {
-    color: #b10d36;
+    color: #b60732;
     font-family: "Chonburi", cursive; }
   .main_nosotros p, .main_catering p {
     font-family: "Courgette", cursive; }
@@ -156,7 +159,7 @@ footer {
   background-image: url(../img/productos3.jpg); }
 
 .main_productos h3 {
-  color: #b10d36;
+  color: #b60732;
   font-family: "Chonburi", cursive; }
 
 .main_productos p {
@@ -176,7 +179,7 @@ footer {
 .main_contacto {
   min-height: 100vh; }
   .main_contacto h1 {
-    color: #b10d36;
+    color: #b60732;
     font-family: "Chonburi", cursive; }
   .main_contacto h2 {
     color: #ece9e2;
